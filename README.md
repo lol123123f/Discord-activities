@@ -134,4 +134,10 @@ embed_var.set_thumbnail(url=self.icon_url)
 return embed_var
 ```
 
-
+## Get all Activity as dictionary
+```py
+activities.get_id_of.to_dict()
+```
+Will return a dictionary that work like this:
+Name = id
+activities.get_id_of.to_dict()["Watch_Together"] will return the Watch_Together id
